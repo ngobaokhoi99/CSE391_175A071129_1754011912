@@ -1,0 +1,16 @@
+.anh {
+	/* background: url(/Portals/0/2019/Thang2/ts2019thumb.png); */
+    /* background-image: url(/Portals/0/2019/Thang2/ts2019thumb.png); */
+    /* background-position-x: initial;
+    background-position-y: initial; */
+    background-size: cover;
+   /*  background-repeat-x: initial;
+    background-repeat-y: initial; */
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    /* background-position: center; */
+    background-size: cover;
+    padding: 5em 0;
+}
