@@ -3,3 +3,10 @@ body {
     margin: 0px;
     background-color: white;
 }
+.nav1 {
+	margin-top: 20px;
+}
+.td td {
+	text-align: center;
+	width: 150px;
+}
