@@ -3,6 +3,31 @@ body {
     margin: 0px;
     background-color: white;
 }
+header{
+  margin-top: 30px;
+}
+header a{
+  margin:  1rem;
+}
+.navbar{
+  background-color: white !important;
+}
+.navbar li a{
+  color: #0200FFFF !important;
+}
+.navbar li a:hover{
+  color: black !important;
+}
+.navbar .dropdown-content{
+  position: absolute;
+  background-color: #50BBFF;
+  padding: 12px 16px;
+  z-index: 1;
+}
+.fa-home{
+  color: #FFF;
+  font-size: 2em;
+}
 .nav1 {
 	margin-top: 40px;
 	background-color: #2b3f8d;
@@ -29,21 +54,37 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 .nav2 {
 	margin-top: 20px;
 }
 
-.td td {
-	text-align: center;
-	width: 150px;
-}
 footer {
-	
 	color: #fff;
 }
 .footp {
 	margin-top: 100px;
 	font-size: 12px;
 	margin-bottom: 200px;
+}
+.help{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+.fa-facebook-messenger{
+  color: #3b5998;
+  font-size: 4em;
+}
+@media (min-width: 768px) {
+  .search1{
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .search{
+    display: none;
+  }
+  .nav1{
+    display: none;
+  }
 }
