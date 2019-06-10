@@ -75,6 +75,9 @@ footer {
   color: #3b5998;
   font-size: 4em;
 }
+.mainNaw ul{
+  list-style-type: none;
+}
 @media (min-width: 768px) {
   .search1{
     display: none;
